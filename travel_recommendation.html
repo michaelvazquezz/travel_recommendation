@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-plane"></i>
+            <h2>TravelBloom</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" id="home-link" class="nav-link active">Home</a></li>
+            <li><a href="#" id="about-link" class="nav-link">About Us</a></li>
+            <li><a href="#" id="contact-link" class="nav-link">Contact Us</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Enter a destination or keyword">
+            <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+            <button id="reset-btn"><i class="fas fa-times"></i> Clear</button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="page active">
+        <div class="background-overlay"></div>
+        <div class="background-image"></div>
+        <div class="content">
+            <div class="headlines">
+                <h1 class="main-headline">EXPLORE</h1>
+                <h1 class="main-headline">DREAM</h1>
+                <h1 class="main-headline highlight">DESTINATION</h1>
+            </div>
+            <p class="description">It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+            <button class="book-btn">
+                <i class="fas fa-plane"></i> BOOK NOW
+            </button>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="page">
+        <div class="container">
+            <h1 class="page-title">ABOUT US</h1>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing the best experience for people traveling to different destinations around the world.</p>
+                    <p>Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in the power of travel to transform lives and create unforgettable memories.</p>
+                </div>
+                <div class="team-section">
+                    <h2>Our Team</h2>
+                    <div class="team-members">
+                        <div class="team-member">
+                            <div class="member-photo"></div>
+                            <h3>John Smith</h3>
+                            <p>CEO & Founder</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-photo"></div>
+                            <h3>Sarah Johnson</h3>
+                            <p>Travel Expert</p>
+                        </div>
+                        <div class="team-member">
+                            <div class="member-photo"></div>
+                            <h3>Mike Davis</h3>
+                            <p>Customer Relations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="page">
+        <div class="container">
+            <h1 class="page-title">CONTACT US</h1>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in touch</h2>
+                    <p>Have questions about our travel recommendations? We're here to help!</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> info@travelbloom.com</p>
+                        <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Travel Street, Adventure City</p>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="results" class="page">
+        <div class="container">
+            <h2 class="page-title">Travel Recommendations</h2>
+            <div id="results-container" class="results-grid"></div>
+        </div>
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

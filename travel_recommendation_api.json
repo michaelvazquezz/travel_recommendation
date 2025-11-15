@@ -1,0 +1,87 @@
+{
+    "countries": [
+        {
+            "id": 1,
+            "name": "Australia",
+            "cities": [
+                {
+                    "name": "Sydney, Australia",
+                    "imageUrl": "sydney.jpg",
+                    "description": "A vibrant city known for its iconic Sydney Opera House and beautiful harbor bridges. Enjoy stunning beaches and a lively cultural scene."
+                },
+                {
+                    "name": "Melbourne, Australia",
+                    "imageUrl": "melbourne.jpg",
+                    "description": "Cultural capital of Australia, famous for its art, food, coffee, and sporting events. Explore hidden laneways and vibrant neighborhoods."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Japan",
+            "cities": [
+                {
+                    "name": "Tokyo, Japan",
+                    "imageUrl": "tokyo.jpg",
+                    "description": "A bustling metropolis where traditional temples stand beside neon-lit skyscrapers. Experience incredible cuisine and cutting-edge technology."
+                },
+                {
+                    "name": "Kyoto, Japan",
+                    "imageUrl": "kyoto.jpg",
+                    "description": "Ancient capital known for its classical Buddhist temples, gardens, and traditional wooden houses. The heart of Japanese culture."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Brazil",
+            "cities": [
+                {
+                    "name": "Rio de Janeiro, Brazil",
+                    "imageUrl": "rio.jpg",
+                    "description": "Famous for its Carnival, samba, bossa nova, and balneario beaches such as Copacabana and Ipanema."
+                }
+            ]
+        }
+    ],
+    "temples": [
+        {
+            "id": 1,
+            "name": "Angkor Wat, Cambodia",
+            "imageUrl": "angkor.jpg",
+            "description": "The largest religious monument in the world, this stunning temple complex is a masterpiece of Khmer architecture and spiritual significance."
+        },
+        {
+            "id": 2,
+            "name": "Taj Mahal, India",
+            "imageUrl": "taj-mahal.jpg",
+            "description": "An ivory-white marble mausoleum, one of the most beautiful buildings in the world and a symbol of eternal love."
+        },
+        {
+            "id": 3,
+            "name": "Sagrada Familia, Spain",
+            "imageUrl": "sagrada.jpg",
+            "description": "Gaudi's unfinished masterpiece in Barcelona, a breathtaking basilica that blends Gothic and Art Nouveau forms in unique ways."
+        }
+    ],
+    "beaches": [
+        {
+            "id": 1,
+            "name": "Bora Bora, French Polynesia",
+            "imageUrl": "bora-bora.jpg",
+            "description": "An island known for its stunning turquoise lagoon and luxurious overwater bungalows. Paradise on Earth with perfect white sand beaches."
+        },
+        {
+            "id": 2,
+            "name": "Maldives Islands",
+            "imageUrl": "maldives.jpg",
+            "description": "Crystal clear waters, vibrant coral reefs, and exclusive resorts make this the ultimate beach destination for relaxation and romance."
+        },
+        {
+            "id": 3,
+            "name": "Copacabana Beach, Brazil",
+            "imageUrl": "copacabana.jpg",
+            "description": "Famous beach in Rio de Janeiro with a vibrant atmosphere, beautiful people, and the iconic black and white wave-patterned sidewalk."
+        }
+    ]
+}
